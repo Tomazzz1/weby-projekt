@@ -1,0 +1,1985 @@
+CRITICAL - 2023-06-16 11:35:54 --> Undefined property: App\Controllers\Main::$Config
+in APPPATH\Controllers\Main.php on line 17.
+ 1 APPPATH\Controllers\Main.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Main::$Config', 'APPPATH\\Controllers\\Main.php', 17, [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->seznam()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 11:51:14 --> syntax error, unexpected '}', expecting ';'
+in APPPATH\Controllers\Main.php on line 28.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Main')
+ 5 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Main', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 11:51:22 --> Class 'App\Controllers\SeznamHracu' not found
+in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(864): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 11:51:29 --> Trying to get property 'nazev' of non-object
+in APPPATH\Views\Seznam_Tymu.php on line 12.
+ 1 APPPATH\Views\Seznam_Tymu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nazev\' of non-object', 'APPPATH\\Views\\Seznam_Tymu.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Seznam_Tymu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 5 APPPATH\Controllers\Main.php(23): view('Seznam_Tymu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->seznam()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 11:51:53 --> Trying to get property 'nazev' of non-object
+in APPPATH\Views\Seznam_Tymu.php on line 12.
+ 1 APPPATH\Views\Seznam_Tymu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nazev\' of non-object', 'APPPATH\\Views\\Seznam_Tymu.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Seznam_Tymu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 5 APPPATH\Controllers\Main.php(23): view('Seznam_Tymu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->seznam()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 12:08:48 --> Undefined variable: row
+in APPPATH\Views\Seznam_Tymu.php on line 8.
+ 1 APPPATH\Views\Seznam_Tymu.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Views\\Seznam_Tymu.php', 8, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Seznam_Tymu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 5 APPPATH\Controllers\Main.php(23): view('Seznam_Tymu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->seznam()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 12:21:44 --> syntax error, unexpected '$row' (T_VARIABLE), expecting ')'
+in APPPATH\Views\Seznam_Tymu.php on line 14.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(23): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->seznam()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 12:45:18 --> Call to a member function orderBy() on null
+in APPPATH\Controllers\Main.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->info()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 12:45:55 --> Call to a member function orderBy() on null
+in APPPATH\Controllers\Main.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->info()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 12:45:56 --> Call to a member function orderBy() on null
+in APPPATH\Controllers\Main.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->info()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 12:45:57 --> Call to a member function orderBy() on null
+in APPPATH\Controllers\Main.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->info()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 12:50:41 --> Call to a member function orderBy() on null
+in APPPATH\Controllers\Main.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->info()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 12:50:42 --> Call to a member function orderBy() on null
+in APPPATH\Controllers\Main.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->info()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 12:51:37 --> Call to a member function orderBy() on null
+in APPPATH\Controllers\Main.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->info()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 12:51:38 --> Call to a member function orderBy() on null
+in APPPATH\Controllers\Main.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->info()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 12:51:38 --> Call to a member function orderBy() on null
+in APPPATH\Controllers\Main.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->info()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 12:52:06 --> Call to a member function orderBy() on null
+in APPPATH\Controllers\Main.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->info()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 12:52:23 --> Call to a member function orderBy() on null
+in APPPATH\Controllers\Main.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->info()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 12:52:23 --> Call to a member function orderBy() on null
+in APPPATH\Controllers\Main.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->info()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 13:02:31 --> Trying to get property 'idtymy' of non-object
+in APPPATH\Views\Stadion.php on line 13.
+ 1 APPPATH\Views\Stadion.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'idtymy\' of non-object', 'APPPATH\\Views\\Stadion.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Stadion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Stadion', [], true)
+ 5 APPPATH\Controllers\Main.php(30): view('Stadion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->info()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 13:04:55 --> Trying to get property 'idtymy' of non-object
+in APPPATH\Views\Stadion.php on line 13.
+ 1 APPPATH\Views\Stadion.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'idtymy\' of non-object', 'APPPATH\\Views\\Stadion.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Stadion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Stadion', [], true)
+ 5 APPPATH\Controllers\Main.php(30): view('Stadion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->info()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 13:04:56 --> Trying to get property 'idtymy' of non-object
+in APPPATH\Views\Stadion.php on line 13.
+ 1 APPPATH\Views\Stadion.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'idtymy\' of non-object', 'APPPATH\\Views\\Stadion.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Stadion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Stadion', [], true)
+ 5 APPPATH\Controllers\Main.php(30): view('Stadion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->info()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 13:05:18 --> Trying to get property 'idstadion' of non-object
+in APPPATH\Views\Stadion.php on line 13.
+ 1 APPPATH\Views\Stadion.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'idstadion\' of non-object', 'APPPATH\\Views\\Stadion.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Stadion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Stadion', [], true)
+ 5 APPPATH\Controllers\Main.php(30): view('Stadion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->info()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 13:05:21 --> Trying to get property 'idstadion' of non-object
+in APPPATH\Views\Stadion.php on line 13.
+ 1 APPPATH\Views\Stadion.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'idstadion\' of non-object', 'APPPATH\\Views\\Stadion.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Stadion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Stadion', [], true)
+ 5 APPPATH\Controllers\Main.php(30): view('Stadion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->info()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 13:08:13 --> Undefined property: stdClass::$idtymu
+in APPPATH\Views\Seznam_Tymu.php on line 16.
+ 1 APPPATH\Views\Seznam_Tymu.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$idtymu', 'APPPATH\\Views\\Seznam_Tymu.php', 16, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Seznam_Tymu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 5 APPPATH\Controllers\Main.php(25): view('Seznam_Tymu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->seznam()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 13:08:54 --> Undefined property: stdClass::$idtymu
+in APPPATH\Views\Seznam_Tymu.php on line 14.
+ 1 APPPATH\Views\Seznam_Tymu.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$idtymu', 'APPPATH\\Views\\Seznam_Tymu.php', 14, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Seznam_Tymu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 5 APPPATH\Controllers\Main.php(25): view('Seznam_Tymu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->seznam()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 13:19:06 --> Use of undefined constant idtymy - assumed 'idtymy' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Main.php on line 28.
+ 1 APPPATH\Controllers\Main.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant idtymy - assumed \'idtymy\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Main.php', 28, [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->info()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 13:21:25 --> syntax error, unexpected '$id' (T_VARIABLE), expecting ')'
+in APPPATH\Controllers\Main.php on line 28.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Main')
+ 5 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Main', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 13:24:22 --> Too few arguments to function App\Controllers\Main::info(), 0 passed in C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php on line 902 and exactly 1 expected
+in APPPATH\Controllers\Main.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->info()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 13:26:35 --> Too few arguments to function App\Controllers\Main::info(), 0 passed in C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php on line 902 and exactly 1 expected
+in APPPATH\Controllers\Main.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->info()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 13:33:01 --> Undefined variable: Stadion
+in APPPATH\Views\Stadion.php on line 9.
+ 1 APPPATH\Views\Stadion.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Stadion', 'APPPATH\\Views\\Stadion.php', 9, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Stadion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Stadion', [], true)
+ 5 APPPATH\Controllers\Main.php(30): view('Stadion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->info()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:20:34 --> Undefined variable: data
+in APPPATH\Views\Pozice_Hracu.php on line 9.
+ 1 APPPATH\Views\Pozice_Hracu.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\Pozice_Hracu.php', 9, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pozice_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Pozice_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(37): view('Pozice_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->pozice()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:22:30 --> Undefined variable: data
+in APPPATH\Views\Pozice_Hracu.php on line 9.
+ 1 APPPATH\Views\Pozice_Hracu.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\Pozice_Hracu.php', 9, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pozice_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Pozice_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(37): view('Pozice_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->pozice()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:22:46 --> Undefined property: stdClass::$jmeno
+in APPPATH\Views\Pozice_Hracu.php on line 13.
+ 1 APPPATH\Views\Pozice_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$jmeno', 'APPPATH\\Views\\Pozice_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pozice_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Pozice_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(37): view('Pozice_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->pozice()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:23:40 --> Undefined property: stdClass::$jmeno
+in APPPATH\Views\Pozice_Hracu.php on line 13.
+ 1 APPPATH\Views\Pozice_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$jmeno', 'APPPATH\\Views\\Pozice_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pozice_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Pozice_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(37): view('Pozice_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->pozice()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:23:41 --> Undefined property: stdClass::$jmeno
+in APPPATH\Views\Pozice_Hracu.php on line 13.
+ 1 APPPATH\Views\Pozice_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$jmeno', 'APPPATH\\Views\\Pozice_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pozice_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Pozice_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(37): view('Pozice_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->pozice()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:23:42 --> Undefined property: stdClass::$jmeno
+in APPPATH\Views\Pozice_Hracu.php on line 13.
+ 1 APPPATH\Views\Pozice_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$jmeno', 'APPPATH\\Views\\Pozice_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pozice_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Pozice_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(37): view('Pozice_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->pozice()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:24:26 --> Undefined property: stdClass::$jmeno
+in APPPATH\Views\Pozice_Hracu.php on line 13.
+ 1 APPPATH\Views\Pozice_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$jmeno', 'APPPATH\\Views\\Pozice_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pozice_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Pozice_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(38): view('Pozice_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->pozice()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:24:27 --> Undefined property: stdClass::$jmeno
+in APPPATH\Views\Pozice_Hracu.php on line 13.
+ 1 APPPATH\Views\Pozice_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$jmeno', 'APPPATH\\Views\\Pozice_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pozice_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Pozice_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(38): view('Pozice_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->pozice()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:24:42 --> Undefined variable: player
+in APPPATH\Views\Pozice_Hracu.php on line 13.
+ 1 APPPATH\Views\Pozice_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: player', 'APPPATH\\Views\\Pozice_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pozice_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Pozice_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(38): view('Pozice_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->pozice()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:24:48 --> Undefined variable: data
+in APPPATH\Views\Pozice_Hracu.php on line 9.
+ 1 APPPATH\Views\Pozice_Hracu.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\Pozice_Hracu.php', 9, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pozice_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Pozice_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(38): view('Pozice_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->pozice()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:26:08 --> Undefined variable: player
+in APPPATH\Views\Pozice_Hracu.php on line 13.
+ 1 APPPATH\Views\Pozice_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: player', 'APPPATH\\Views\\Pozice_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pozice_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Pozice_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(38): view('Pozice_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->pozice()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:26:58 --> Invalid file: layout/master.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/master.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/master', [], true)
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Pozice_Hracu', [], true)
+ 4 APPPATH\Controllers\Main.php(38): view('Pozice_Hracu', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->pozice()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:27:09 --> Invalid file: layout/master.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/master.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/master', [], true)
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Pozice_Hracu', [], true)
+ 4 APPPATH\Controllers\Main.php(38): view('Pozice_Hracu', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->pozice()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:27:09 --> Invalid file: layout/master.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/master.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/master', [], true)
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Pozice_Hracu', [], true)
+ 4 APPPATH\Controllers\Main.php(38): view('Pozice_Hracu', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->pozice()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:27:10 --> Invalid file: layout/master.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/master.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/master', [], true)
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Pozice_Hracu', [], true)
+ 4 APPPATH\Controllers\Main.php(38): view('Pozice_Hracu', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->pozice()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:38:36 --> syntax error, unexpected 'hraci' (T_STRING)
+in APPPATH\Views\Pozice_Hracu.php on line 12.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Pozice_Hracu', [], true)
+ 3 APPPATH\Controllers\Main.php(38): view('Pozice_Hracu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->pozice()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:42:14 --> Undefined variable: Pozice
+in APPPATH\Views\Pozice_Hracu.php on line 10.
+ 1 APPPATH\Views\Pozice_Hracu.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Pozice', 'APPPATH\\Views\\Pozice_Hracu.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pozice_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Pozice_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(38): view('Pozice_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->pozice()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:44:24 --> syntax error, unexpected 'width' (T_STRING), expecting ';' or ','
+in APPPATH\Views\Pozice_Hracu.php on line 8.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Pozice_Hracu', [], true)
+ 3 APPPATH\Controllers\Main.php(38): view('Pozice_Hracu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->pozice()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:44:37 --> syntax error, unexpected ''width:17rem;text-decoration:n' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+in APPPATH\Views\Pozice_Hracu.php on line 8.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Pozice_Hracu', [], true)
+ 3 APPPATH\Controllers\Main.php(38): view('Pozice_Hracu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->pozice()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:44:37 --> syntax error, unexpected ''width:17rem;text-decoration:n' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+in APPPATH\Views\Pozice_Hracu.php on line 8.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Pozice_Hracu', [], true)
+ 3 APPPATH\Controllers\Main.php(38): view('Pozice_Hracu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->pozice()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:48:05 --> syntax error, unexpected '<'
+in APPPATH\Views\Pozice_Hracu.php on line 10.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Pozice_Hracu', [], true)
+ 3 APPPATH\Controllers\Main.php(38): view('Pozice_Hracu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->pozice()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:49:20 --> syntax error, unexpected '<'
+in APPPATH\Views\Pozice_Hracu.php on line 10.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Pozice_Hracu', [], true)
+ 3 APPPATH\Controllers\Main.php(38): view('Pozice_Hracu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->pozice()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:49:21 --> syntax error, unexpected '<'
+in APPPATH\Views\Pozice_Hracu.php on line 10.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Pozice_Hracu', [], true)
+ 3 APPPATH\Controllers\Main.php(38): view('Pozice_Hracu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->pozice()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:55:09 --> syntax error, unexpected '}'
+in APPPATH\Controllers\Main.php on line 45.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Main')
+ 5 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Main', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:00:09 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\Main:zobrazitHrace/$1
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Main:zobrazitHrace/$1')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('hraci/1')
+ 3 SYSTEMPATH\CodeIgniter.php(777): CodeIgniter\Router\Router->handle('hraci/1')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:00:52 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\Main:zobrazitHrace/$1
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Main:zobrazitHrace/$1')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('hraci/1')
+ 3 SYSTEMPATH\CodeIgniter.php(777): CodeIgniter\Router\Router->handle('hraci/1')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:00:53 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\Main:zobrazitHrace/$1
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Main:zobrazitHrace/$1')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('hraci/1')
+ 3 SYSTEMPATH\CodeIgniter.php(777): CodeIgniter\Router\Router->handle('hraci/1')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:01:15 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\Main:zobrazitHrace/$1
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Main:zobrazitHrace/$1')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('hraci/1')
+ 3 SYSTEMPATH\CodeIgniter.php(777): CodeIgniter\Router\Router->handle('hraci/1')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:02:04 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\Main:zobrazitHrace/$1
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Main:zobrazitHrace/$1')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('hraci/1')
+ 3 SYSTEMPATH\CodeIgniter.php(777): CodeIgniter\Router\Router->handle('hraci/1')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:02:04 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\Main:zobrazitHrace/$1
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Main:zobrazitHrace/$1')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('hraci/1')
+ 3 SYSTEMPATH\CodeIgniter.php(777): CodeIgniter\Router\Router->handle('hraci/1')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:02:25 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 14
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unmatched closing parenthesis at offset 14', 'SYSTEMPATH\\Router\\Router.php', 418, [...])
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^hraci\\([0-9]+)$#u', 'hraci/1', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('hraci/1')
+ 4 SYSTEMPATH\CodeIgniter.php(777): CodeIgniter\Router\Router->handle('hraci/1')
+ 5 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:03:06 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(45): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:04:36 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(45): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:04:37 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(45): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:05:17 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(45): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:05:18 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(45): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:48 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(45): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('3')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:08:12 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(45): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:11:42 --> Invalid file: layout/master.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/master.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/master', [], true)
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 4 APPPATH\Controllers\Main.php(45): view('Zobrazeni_Hracu', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:14:28 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(48): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:14:48 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(48): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:16:07 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(49): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:16:18 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(49): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-16 15:16:33 --> mysqli_sql_exception: Unknown column 'liga_hraci.deleted_at' in 'where clause' in C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\subik\Final_Project\ci4bs5\app\Controllers\Main.php(47): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+#8 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\subik\Final_Project\ci4bs5\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-16 15:16:33 --> Unknown column 'liga_hraci.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `liga_hraci`
+WHERE `liga_hraci`.`deleted_at` IS NULL
+ORDER BY `jmeno`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `liga_hraci`
+WHERE `liga_hraci`.`deleted_at` IS NULL
+ORDER BY `jmeno`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `liga_hraci`
+WHERE `liga_hraci`.`deleted_at` IS NULL
+ORDER BY `jmeno`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `liga_hraci`
+WHERE `liga_hraci`.`deleted_at` IS NULL
+ORDER BY `jmeno`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Main.php(47): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:17:19 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(49): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:21:00 --> Undefined variable: data
+in APPPATH\Views\Zobrazeni_Hracu.php on line 9.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 9, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(49): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:25:02 --> Undefined variable: data
+in APPPATH\Views\Zobrazeni_Hracu.php on line 9.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 9, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(49): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:25:05 --> Undefined variable: data
+in APPPATH\Views\Zobrazeni_Hracu.php on line 9.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 9, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(49): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:26:07 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(49): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:27:12 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(49): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:27:36 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(49): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:27:37 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(49): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:27:39 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(49): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:28:29 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(49): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:29:30 --> Undefined property: App\Controllers\Main::$hraci
+in APPPATH\Controllers\Main.php on line 49.
+ 1 APPPATH\Controllers\Main.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Main::$hraci', 'APPPATH\\Controllers\\Main.php', 49, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:30:25 --> Undefined variable: zfe
+in APPPATH\Views\Zobrazeni_Hracu.php on line 9.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: zfe', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 9, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(52): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:30:35 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(52): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:30:49 --> Undefined variable: player
+in APPPATH\Views\Zobrazeni_Hracu.php on line 9.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: player', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 9, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(52): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:31:10 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(52): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:32:47 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(52): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:33:00 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(52): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:34:01 --> syntax error, unexpected '<'
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 3 APPPATH\Controllers\Main.php(52): view('Zobrazeni_Hracu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:36:16 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(52): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:36:35 --> syntax error, unexpected '"</h5>' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+in APPPATH\Views\Zobrazeni_Hracu.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 3 APPPATH\Controllers\Main.php(52): view('Zobrazeni_Hracu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:50:49 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 12.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(52): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:52:11 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 12.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(52): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:52:12 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 12.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(52): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:52:53 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 12.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(52): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:53:38 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 12.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(52): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:53:42 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 12.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(52): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:55:12 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 12.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(52): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:56:01 --> syntax error, unexpected '>'
+in APPPATH\Views\Zobrazeni_Hracu.php on line 12.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 3 APPPATH\Controllers\Main.php(52): view('Zobrazeni_Hracu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:56:50 --> Trying to get property 'idPozice' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 12.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'idPozice\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(52): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:01:07 --> Undefined variable: data
+in APPPATH\Views\Zobrazeni_Hracu.php on line 8.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 8, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(49): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:01:20 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 12.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(49): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:01:43 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 12.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(49): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:01:44 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 12.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(49): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:02:33 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 12.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(49): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:03:47 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 12.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(49): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:16:33 --> Class 'Config\MyConfig' not found
+in APPPATH\Controllers\Main.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(864): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-16 16:17:43 --> mysqli_sql_exception: Unknown column 'idHrace' in 'where clause' in C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\BaseModel.php(1105): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\subik\Final_Project\ci4bs5\app\Controllers\Main.php(53): CodeIgniter\BaseModel->paginate(4)
+#7 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+#8 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\subik\Final_Project\ci4bs5\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-16 16:17:43 --> Unknown column 'idHrace' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci`
+WHERE `idHrace` = \'1\'
+AND `liga_hraci`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci`
+WHERE `idHrace` = \'1\'
+AND `liga_hraci`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci`
+WHERE `idHrace` = \'1\'
+AND `liga_hraci`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci`
+WHERE `idHrace` = :idHrace:
+AND `liga_hraci`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1105): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Main.php(53): CodeIgniter\BaseModel->paginate(4)
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-16 16:18:12 --> mysqli_sql_exception: Unknown column 'idHrace' in 'where clause' in C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\BaseModel.php(1105): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\subik\Final_Project\ci4bs5\app\Controllers\Main.php(53): CodeIgniter\BaseModel->paginate(4)
+#7 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+#8 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\subik\Final_Project\ci4bs5\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-16 16:18:12 --> Unknown column 'idHrace' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci`
+WHERE `idHrace` = \'1\'
+AND `liga_hraci`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci`
+WHERE `idHrace` = \'1\'
+AND `liga_hraci`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci`
+WHERE `idHrace` = \'1\'
+AND `liga_hraci`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci`
+WHERE `idHrace` = :idHrace:
+AND `liga_hraci`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1105): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Main.php(53): CodeIgniter\BaseModel->paginate(4)
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-16 16:18:13 --> mysqli_sql_exception: Unknown column 'idHrace' in 'where clause' in C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\BaseModel.php(1105): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\subik\Final_Project\ci4bs5\app\Controllers\Main.php(53): CodeIgniter\BaseModel->paginate(4)
+#7 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+#8 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\subik\Final_Project\ci4bs5\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-16 16:18:13 --> Unknown column 'idHrace' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci`
+WHERE `idHrace` = \'1\'
+AND `liga_hraci`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci`
+WHERE `idHrace` = \'1\'
+AND `liga_hraci`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci`
+WHERE `idHrace` = \'1\'
+AND `liga_hraci`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci`
+WHERE `idHrace` = :idHrace:
+AND `liga_hraci`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1105): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Main.php(53): CodeIgniter\BaseModel->paginate(4)
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:18:40 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+in APPPATH\Views\Zobrazeni_Hracu.php on line 18.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_hracu', [], true)
+ 3 APPPATH\Controllers\Main.php(56): view('Zobrazeni_hracu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-16 16:19:25 --> mysqli_sql_exception: Unknown column 'idHraci' in 'where clause' in C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\BaseModel.php(1105): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\subik\Final_Project\ci4bs5\app\Controllers\Main.php(53): CodeIgniter\BaseModel->paginate(4)
+#7 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+#8 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\subik\Final_Project\ci4bs5\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-16 16:19:25 --> Unknown column 'idHraci' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci_v_sezone`
+WHERE `idHraci` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci_v_sezone`
+WHERE `idHraci` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci_v_sezone`
+WHERE `idHraci` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci_v_sezone`
+WHERE `idHraci` = :idHraci:', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1105): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Main.php(53): CodeIgniter\BaseModel->paginate(4)
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-16 16:20:59 --> mysqli_sql_exception: Unknown column 'idHraci' in 'where clause' in C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\BaseModel.php(1105): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\subik\Final_Project\ci4bs5\app\Controllers\Main.php(53): CodeIgniter\BaseModel->paginate(4)
+#7 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+#8 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\subik\Final_Project\ci4bs5\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-16 16:20:59 --> Unknown column 'idHraci' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci_v_sezone`
+WHERE `idHraci` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci_v_sezone`
+WHERE `idHraci` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci_v_sezone`
+WHERE `idHraci` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci_v_sezone`
+WHERE `idHraci` = :idHraci:', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1105): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Main.php(53): CodeIgniter\BaseModel->paginate(4)
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:21:05 --> Cannot use object of type App\Models\ZobrazeniH as array
+in APPPATH\Controllers\Main.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:21:25 --> Cannot use object of type App\Models\ZobrazeniH as array
+in APPPATH\Controllers\Main.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:21:26 --> Cannot use object of type App\Models\ZobrazeniH as array
+in APPPATH\Controllers\Main.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:21:50 --> Cannot use object of type App\Models\ZobrazeniH as array
+in APPPATH\Controllers\Main.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:21:52 --> Cannot use object of type App\Models\ZobrazeniH as array
+in APPPATH\Controllers\Main.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-16 16:21:59 --> mysqli_sql_exception: Unknown column 'idHraci' in 'where clause' in C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\BaseModel.php(1105): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\subik\Final_Project\ci4bs5\app\Controllers\Main.php(53): CodeIgniter\BaseModel->paginate(4)
+#7 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+#8 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\subik\Final_Project\ci4bs5\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-16 16:21:59 --> Unknown column 'idHraci' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci_v_sezone`
+WHERE `pozice_idpozice` = \'1\'
+AND `idSezony` = 1
+AND `idHraci` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci_v_sezone`
+WHERE `pozice_idpozice` = \'1\'
+AND `idSezony` = 1
+AND `idHraci` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci_v_sezone`
+WHERE `pozice_idpozice` = \'1\'
+AND `idSezony` = 1
+AND `idHraci` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci_v_sezone`
+WHERE `pozice_idpozice` = :pozice_idpozice:
+AND `idSezony` = :idSezony:
+AND `idHraci` = :idHraci:', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1105): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Main.php(53): CodeIgniter\BaseModel->paginate(4)
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:27:38 --> syntax error, unexpected '$data' (T_VARIABLE)
+in APPPATH\Controllers\Main.php on line 53.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Main')
+ 5 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Main', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:27:45 --> syntax error, unexpected '$data' (T_VARIABLE)
+in APPPATH\Controllers\Main.php on line 53.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Main')
+ 5 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Main', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:27:46 --> syntax error, unexpected '$data' (T_VARIABLE)
+in APPPATH\Controllers\Main.php on line 53.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Main')
+ 5 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Main', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:28:26 --> syntax error, unexpected '$data' (T_VARIABLE)
+in APPPATH\Controllers\Main.php on line 53.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Main')
+ 5 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Main', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:31:23 --> syntax error, unexpected '$data' (T_VARIABLE)
+in APPPATH\Controllers\Main.php on line 53.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Main')
+ 5 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Main', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:31:33 --> syntax error, unexpected '$data' (T_VARIABLE)
+in APPPATH\Controllers\Main.php on line 53.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Main')
+ 5 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Main', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:31:42 --> Cannot use object of type App\Models\ZobrazeniH as array
+in APPPATH\Controllers\Main.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:31:50 --> Cannot use object of type App\Models\ZobrazeniH as array
+in APPPATH\Controllers\Main.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:32:41 --> Cannot use object of type App\Models\ZobrazeniH as array
+in APPPATH\Controllers\Main.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:33:13 --> Cannot use object of type App\Models\ZobrazeniH as array
+in APPPATH\Controllers\Main.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-16 16:33:32 --> mysqli_sql_exception: Unknown column 'idHraci' in 'order clause' in C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#6 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\BaseModel.php(1109): CodeIgniter\BaseModel->findAll(4, 0)
+#7 C:\xampp\htdocs\subik\Final_Project\ci4bs5\app\Controllers\Main.php(53): CodeIgniter\BaseModel->paginate(4)
+#8 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+#9 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#10 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\subik\Final_Project\ci4bs5\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-16 16:33:32 --> Unknown column 'idHraci' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `liga_hraci_v_sezone`
+WHERE `idHrace` = \'1\'
+ORDER BY `idHraci` ASC
+ LIMIT 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `liga_hraci_v_sezone`
+WHERE `idHrace` = \'1\'
+ORDER BY `idHraci` ASC
+ LIMIT 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `liga_hraci_v_sezone`
+WHERE `idHrace` = \'1\'
+ORDER BY `idHraci` ASC
+ LIMIT 4')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `liga_hraci_v_sezone`
+WHERE `idHrace` = :idHrace:
+ORDER BY `idHraci` ASC
+ LIMIT 4', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+ 7 SYSTEMPATH\BaseModel.php(1109): CodeIgniter\BaseModel->findAll(4, 0)
+ 8 APPPATH\Controllers\Main.php(53): CodeIgniter\BaseModel->paginate(4)
+ 9 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-16 16:34:36 --> mysqli_sql_exception: Unknown column 'idHraci' in 'order clause' in C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#6 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\BaseModel.php(1109): CodeIgniter\BaseModel->findAll(4, 0)
+#7 C:\xampp\htdocs\subik\Final_Project\ci4bs5\app\Controllers\Main.php(53): CodeIgniter\BaseModel->paginate(4)
+#8 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+#9 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#10 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\subik\Final_Project\ci4bs5\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-16 16:34:36 --> Unknown column 'idHraci' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `liga_hraci_v_sezone`
+WHERE `idHrace` = \'1\'
+ORDER BY `idHraci` ASC
+ LIMIT 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `liga_hraci_v_sezone`
+WHERE `idHrace` = \'1\'
+ORDER BY `idHraci` ASC
+ LIMIT 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `liga_hraci_v_sezone`
+WHERE `idHrace` = \'1\'
+ORDER BY `idHraci` ASC
+ LIMIT 4')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `liga_hraci_v_sezone`
+WHERE `idHrace` = :idHrace:
+ORDER BY `idHraci` ASC
+ LIMIT 4', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+ 7 SYSTEMPATH\BaseModel.php(1109): CodeIgniter\BaseModel->findAll(4, 0)
+ 8 APPPATH\Controllers\Main.php(53): CodeIgniter\BaseModel->paginate(4)
+ 9 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:35:56 --> Undefined property: stdClass::$idHraci
+in APPPATH\Controllers\Main.php on line 52.
+ 1 APPPATH\Controllers\Main.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$idHraci', 'APPPATH\\Controllers\\Main.php', 52, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-16 16:36:08 --> mysqli_sql_exception: Unknown column 'idHracu' in 'order clause' in C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#6 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\BaseModel.php(1109): CodeIgniter\BaseModel->findAll(4, 0)
+#7 C:\xampp\htdocs\subik\Final_Project\ci4bs5\app\Controllers\Main.php(53): CodeIgniter\BaseModel->paginate(4)
+#8 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+#9 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#10 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\subik\Final_Project\ci4bs5\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-16 16:36:08 --> Unknown column 'idHracu' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `liga_hraci`
+WHERE `idHraci` = \'1\'
+AND `liga_hraci`.`deleted_at` IS NULL
+ORDER BY `idHracu` ASC
+ LIMIT 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `liga_hraci`
+WHERE `idHraci` = \'1\'
+AND `liga_hraci`.`deleted_at` IS NULL
+ORDER BY `idHracu` ASC
+ LIMIT 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `liga_hraci`
+WHERE `idHraci` = \'1\'
+AND `liga_hraci`.`deleted_at` IS NULL
+ORDER BY `idHracu` ASC
+ LIMIT 4')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `liga_hraci`
+WHERE `idHraci` = :idHraci:
+AND `liga_hraci`.`deleted_at` IS NULL
+ORDER BY `idHracu` ASC
+ LIMIT 4', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+ 7 SYSTEMPATH\BaseModel.php(1109): CodeIgniter\BaseModel->findAll(4, 0)
+ 8 APPPATH\Controllers\Main.php(53): CodeIgniter\BaseModel->paginate(4)
+ 9 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-16 16:36:13 --> mysqli_sql_exception: Unknown column 'idHrace' in 'where clause' in C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\BaseModel.php(1105): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\subik\Final_Project\ci4bs5\app\Controllers\Main.php(53): CodeIgniter\BaseModel->paginate(4)
+#7 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+#8 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\subik\Final_Project\ci4bs5\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-16 16:36:13 --> Unknown column 'idHrace' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci`
+WHERE `idHrace` = \'1\'
+AND `liga_hraci`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci`
+WHERE `idHrace` = \'1\'
+AND `liga_hraci`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci`
+WHERE `idHrace` = \'1\'
+AND `liga_hraci`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `liga_hraci`
+WHERE `idHrace` = :idHrace:
+AND `liga_hraci`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1105): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Main.php(53): CodeIgniter\BaseModel->paginate(4)
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-16 16:36:21 --> mysqli_sql_exception: Unknown column 'idHraci' in 'where clause' in C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\subik\Final_Project\ci4bs5\app\Controllers\Main.php(51): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+#8 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\subik\Final_Project\ci4bs5\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\subik\Final_Project\ci4bs5\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-16 16:36:21 --> Unknown column 'idHraci' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `liga_hraci_v_sezone`
+WHERE `idHraci` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `liga_hraci_v_sezone`
+WHERE `idHraci` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `liga_hraci_v_sezone`
+WHERE `idHraci` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `liga_hraci_v_sezone`
+WHERE `idHraci` = :idHraci:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Main.php(51): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:36:25 --> Undefined property: stdClass::$idHraci
+in APPPATH\Controllers\Main.php on line 52.
+ 1 APPPATH\Controllers\Main.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$idHraci', 'APPPATH\\Controllers\\Main.php', 52, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:37:11 --> Undefined property: stdClass::$idHraci
+in APPPATH\Controllers\Main.php on line 52.
+ 1 APPPATH\Controllers\Main.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$idHraci', 'APPPATH\\Controllers\\Main.php', 52, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:40:04 --> Undefined variable: idHraci
+in APPPATH\Controllers\Main.php on line 51.
+ 1 APPPATH\Controllers\Main.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idHraci', 'APPPATH\\Controllers\\Main.php', 51, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:40:29 --> Undefined variable: idHraci
+in APPPATH\Controllers\Main.php on line 51.
+ 1 APPPATH\Controllers\Main.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idHraci', 'APPPATH\\Controllers\\Main.php', 51, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:40:55 --> Undefined variable: idHracu
+in APPPATH\Controllers\Main.php on line 51.
+ 1 APPPATH\Controllers\Main.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idHracu', 'APPPATH\\Controllers\\Main.php', 51, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:41:00 --> Undefined variable: idHrace
+in APPPATH\Controllers\Main.php on line 51.
+ 1 APPPATH\Controllers\Main.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idHrace', 'APPPATH\\Controllers\\Main.php', 51, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:42:44 --> Undefined variable: idHrace
+in APPPATH\Controllers\Main.php on line 51.
+ 1 APPPATH\Controllers\Main.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idHrace', 'APPPATH\\Controllers\\Main.php', 51, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:43:24 --> Undefined variable: idHrace
+in APPPATH\Controllers\Main.php on line 51.
+ 1 APPPATH\Controllers\Main.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idHrace', 'APPPATH\\Controllers\\Main.php', 51, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:45:02 --> Undefined property: Config\MyConfig::$pagerDomu
+in APPPATH\Controllers\Main.php on line 55.
+ 1 APPPATH\Controllers\Main.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: Config\\MyConfig::$pagerDomu', 'APPPATH\\Controllers\\Main.php', 55, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:45:48 --> Invalid file: hraci.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hraci.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('hraci', [], true)
+ 3 APPPATH\Controllers\Main.php(59): view('hraci', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:46:55 --> Invalid file: hraci.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hraci.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('hraci', [], true)
+ 3 APPPATH\Controllers\Main.php(58): view('hraci', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:46:56 --> Invalid file: hraci.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hraci.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('hraci', [], true)
+ 3 APPPATH\Controllers\Main.php(58): view('hraci', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:47:11 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+in APPPATH\Views\Zobrazeni_Hracu.php on line 18.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 3 APPPATH\Controllers\Main.php(58): view('Zobrazeni_Hracu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:47:41 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(58): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:48:09 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+in APPPATH\Views\Zobrazeni_Hracu.php on line 14.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 3 APPPATH\Controllers\Main.php(58): view('Zobrazeni_Hracu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:48:34 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+in APPPATH\Views\Zobrazeni_Hracu.php on line 14.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 3 APPPATH\Controllers\Main.php(58): view('Zobrazeni_Hracu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:48:59 --> syntax error, unexpected '<'
+in APPPATH\Views\Zobrazeni_Hracu.php on line 14.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 3 APPPATH\Controllers\Main.php(58): view('Zobrazeni_Hracu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:49:04 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+in APPPATH\Views\Zobrazeni_Hracu.php on line 14.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 3 APPPATH\Controllers\Main.php(58): view('Zobrazeni_Hracu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:49:25 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+in APPPATH\Views\Zobrazeni_Hracu.php on line 14.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 3 APPPATH\Controllers\Main.php(58): view('Zobrazeni_Hracu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:49:55 --> syntax error, unexpected 'card' (T_STRING)
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 3 APPPATH\Controllers\Main.php(58): view('Zobrazeni_Hracu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:50:14 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 13.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(58): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:52:01 --> Trying to get property 'jmeno' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 14.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jmeno\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 14, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(58): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:52:18 --> Trying to get property 'nazev' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 14.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nazev\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 14, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(58): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:52:30 --> Trying to get property 'idHrace' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 14.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'idHrace\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 14, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(58): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:52:46 --> Trying to get property 'idHraci' of non-object
+in APPPATH\Views\Zobrazeni_Hracu.php on line 14.
+ 1 APPPATH\Views\Zobrazeni_Hracu.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'idHraci\' of non-object', 'APPPATH\\Views\\Zobrazeni_Hracu.php', 14, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Zobrazeni_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(58): view('Zobrazeni_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:53:34 --> syntax error, unexpected '$player' (T_VARIABLE), expecting ';' or ','
+in APPPATH\Views\Zobrazeni_Hracu.php on line 14.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 3 APPPATH\Controllers\Main.php(58): view('Zobrazeni_Hracu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:54:16 --> syntax error, unexpected '$player' (T_VARIABLE), expecting ';' or ','
+in APPPATH\Views\Zobrazeni_Hracu.php on line 14.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 3 APPPATH\Controllers\Main.php(58): view('Zobrazeni_Hracu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:54:16 --> Undefined property: stdClass::$jmeno
+in APPPATH\Views\Pozice_Hracu.php on line 10.
+ 1 APPPATH\Views\Pozice_Hracu.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$jmeno', 'APPPATH\\Views\\Pozice_Hracu.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pozice_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Pozice_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(47): view('Pozice_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->pozice()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 16:54:24 --> Undefined property: stdClass::$jmeno
+in APPPATH\Views\Pozice_Hracu.php on line 10.
+ 1 APPPATH\Views\Pozice_Hracu.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$jmeno', 'APPPATH\\Views\\Pozice_Hracu.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pozice_Hracu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Pozice_Hracu', [], true)
+ 5 APPPATH\Controllers\Main.php(47): view('Pozice_Hracu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->pozice()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 17:00:00 --> syntax error, unexpected ']'
+in APPPATH\Controllers\Main.php on line 53.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Main')
+ 5 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Main', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 17:00:08 --> syntax error, unexpected '$player' (T_VARIABLE), expecting ';' or ','
+in APPPATH\Views\Zobrazeni_Hracu.php on line 14.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 3 APPPATH\Controllers\Main.php(55): view('Zobrazeni_Hracu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 17:00:15 --> syntax error, unexpected '$player' (T_VARIABLE), expecting ';' or ','
+in APPPATH\Views\Zobrazeni_Hracu.php on line 14.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 3 APPPATH\Controllers\Main.php(55): view('Zobrazeni_Hracu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 17:00:36 --> syntax error, unexpected '$player' (T_VARIABLE), expecting ';' or ','
+in APPPATH\Views\Zobrazeni_Hracu.php on line 14.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 3 APPPATH\Controllers\Main.php(55): view('Zobrazeni_Hracu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 17:00:39 --> syntax error, unexpected '$player' (T_VARIABLE), expecting ';' or ','
+in APPPATH\Views\Zobrazeni_Hracu.php on line 14.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Zobrazeni_Hracu', [], true)
+ 3 APPPATH\Controllers\Main.php(55): view('Zobrazeni_Hracu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->zobrazitHrace('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,30 @@
+CRITICAL - 2023-06-12 11:37:51 --> Class 'App\Controllers\SeznamTymu' not found
+in APPPATH\Controllers\Main.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(864): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 11:38:08 --> Class 'App\Controllers\SeznamTymu' not found
+in APPPATH\Controllers\Main.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(864): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 11:38:51 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+in APPPATH\Views\Seznam_Tymu.php on line 6.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 11:38:54 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+in APPPATH\Views\Seznam_Tymu.php on line 6.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

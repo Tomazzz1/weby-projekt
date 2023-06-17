@@ -1,0 +1,585 @@
+CRITICAL - 2023-06-14 13:27:42 --> syntax error, unexpected '}', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 19.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:27:48 --> syntax error, unexpected '}', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 19.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:27:50 --> syntax error, unexpected '}', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 19.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:27:50 --> syntax error, unexpected '}', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 19.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:27:51 --> syntax error, unexpected '}', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 19.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:27:51 --> syntax error, unexpected '}', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 19.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:27:52 --> syntax error, unexpected '}', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 19.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:27:59 --> syntax error, unexpected '}', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 19.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:29:52 --> syntax error, unexpected '.'
+in APPPATH\Views\Seznam_Tymu.php on line 5.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:29:53 --> syntax error, unexpected '.'
+in APPPATH\Views\Seznam_Tymu.php on line 5.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:30:06 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+in APPPATH\Views\Seznam_Tymu.php on line 6.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:30:06 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+in APPPATH\Views\Seznam_Tymu.php on line 6.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:31:48 --> syntax error, unexpected 'seznam' (T_STRING), expecting ';' or ','
+in APPPATH\Views\Seznam_Tymu.php on line 5.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:32:16 --> syntax error, unexpected 'seznam' (T_STRING), expecting ';' or ','
+in APPPATH\Views\Seznam_Tymu.php on line 5.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:32:25 --> syntax error, unexpected 'seznam' (T_STRING), expecting ';' or ','
+in APPPATH\Views\Seznam_Tymu.php on line 5.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:36:21 --> syntax error, unexpected '<', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 6.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:36:45 --> syntax error, unexpected '<', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 7.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:36:46 --> syntax error, unexpected '<', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 7.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:37:07 --> syntax error, unexpected '<', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 8.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:37:54 --> syntax error, unexpected '<', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 16.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:38:10 --> syntax error, unexpected '<', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 16.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:38:11 --> syntax error, unexpected '<', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 16.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:38:12 --> syntax error, unexpected '<', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 16.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:38:21 --> syntax error, unexpected '<', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 16.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:40:13 --> syntax error, unexpected '<', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 23.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:42:03 --> syntax error, unexpected 'foreach' (T_FOREACH), expecting ';' or ','
+in APPPATH\Views\Seznam_Tymu.php on line 7.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:44:00 --> syntax error, unexpected 'foreach' (T_FOREACH), expecting ';' or ','
+in APPPATH\Views\Seznam_Tymu.php on line 7.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:45:45 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+in APPPATH\Views\Seznam_Tymu.php on line 7.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:45:48 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+in APPPATH\Views\Seznam_Tymu.php on line 7.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:45:49 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+in APPPATH\Views\Seznam_Tymu.php on line 7.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:45:51 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+in APPPATH\Views\Seznam_Tymu.php on line 7.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:45:51 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+in APPPATH\Views\Seznam_Tymu.php on line 7.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:45:52 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+in APPPATH\Views\Seznam_Tymu.php on line 7.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:45:52 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+in APPPATH\Views\Seznam_Tymu.php on line 7.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:45:53 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+in APPPATH\Views\Seznam_Tymu.php on line 7.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:45:54 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+in APPPATH\Views\Seznam_Tymu.php on line 7.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:46:19 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+in APPPATH\Views\Seznam_Tymu.php on line 7.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:46:21 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+in APPPATH\Views\Seznam_Tymu.php on line 7.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:46:32 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+in APPPATH\Views\Seznam_Tymu.php on line 7.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:47:27 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+in APPPATH\Views\Seznam_Tymu.php on line 7.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:47:49 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+in APPPATH\Views\Seznam_Tymu.php on line 7.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:47:57 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+in APPPATH\Views\Seznam_Tymu.php on line 7.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:47:57 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+in APPPATH\Views\Seznam_Tymu.php on line 7.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:48:22 --> syntax error, unexpected '<', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 14.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:50:24 --> Undefined variable: row
+in APPPATH\Views\Seznam_Tymu.php on line 13.
+ 1 APPPATH\Views\Seznam_Tymu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Views\\Seznam_Tymu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Seznam_Tymu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 5 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:50:25 --> Undefined variable: row
+in APPPATH\Views\Seznam_Tymu.php on line 13.
+ 1 APPPATH\Views\Seznam_Tymu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Views\\Seznam_Tymu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Seznam_Tymu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 5 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:50:26 --> Undefined variable: row
+in APPPATH\Views\Seznam_Tymu.php on line 13.
+ 1 APPPATH\Views\Seznam_Tymu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Views\\Seznam_Tymu.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Seznam_Tymu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 5 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 13:53:41 --> syntax error, unexpected '<', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 37.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 14:02:06 --> syntax error, unexpected '<', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 37.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 14:02:09 --> syntax error, unexpected '<', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 37.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 14:02:10 --> syntax error, unexpected '<', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 37.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 14:02:10 --> syntax error, unexpected '<', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 37.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 14:07:05 --> syntax error, unexpected '<', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 40.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 14:07:46 --> syntax error, unexpected '<', expecting end of file
+in APPPATH\Views\Seznam_Tymu.php on line 44.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Seznam_Tymu', [], true)
+ 3 APPPATH\Controllers\Main.php(16): view('Seznam_Tymu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 14:13:12 --> syntax error, unexpected 'if' (T_IF)
+in APPPATH\Config\Routes.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 14:13:33 --> Undefined variable: router
+in APPPATH\Config\Routes.php on line 40.
+ 1 APPPATH\Config\Routes.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: router', 'APPPATH\\Config\\Routes.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(764): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 14:13:34 --> Undefined variable: router
+in APPPATH\Config\Routes.php on line 40.
+ 1 APPPATH\Config\Routes.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: router', 'APPPATH\\Config\\Routes.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(764): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 14:15:20 --> Undefined variable: router
+in APPPATH\Config\Routes.php on line 40.
+ 1 APPPATH\Config\Routes.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: router', 'APPPATH\\Config\\Routes.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(764): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 14:15:21 --> Undefined variable: router
+in APPPATH\Config\Routes.php on line 40.
+ 1 APPPATH\Config\Routes.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: router', 'APPPATH\\Config\\Routes.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(764): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 14:15:21 --> Undefined variable: router
+in APPPATH\Config\Routes.php on line 40.
+ 1 APPPATH\Config\Routes.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: router', 'APPPATH\\Config\\Routes.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(764): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 14:15:32 --> Undefined variable: router
+in APPPATH\Config\Routes.php on line 40.
+ 1 APPPATH\Config\Routes.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: router', 'APPPATH\\Config\\Routes.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(764): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 14:15:37 --> Undefined variable: router
+in APPPATH\Config\Routes.php on line 40.
+ 1 APPPATH\Config\Routes.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: router', 'APPPATH\\Config\\Routes.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(764): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 14:17:45 --> Cannot declare class App\Models\SeznamTymu, because the name is already in use
+in APPPATH\Models\Uvod.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-14 14:18:16 --> Class 'App\Models\Uvod' not found
+in APPPATH\Controllers\Main.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->indext()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 14:21:03 --> Undefined variable: router
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: router', 'APPPATH\\Config\\Routes.php', 39, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(764): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 14:27:46 --> Cannot declare class App\Models\SeznamTymu, because the name is already in use
+in APPPATH\Models\Uvod.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-14 14:28:45 --> syntax error, unexpected '}', expecting ';' or ','
+in APPPATH\Controllers\Main.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Main')
+ 5 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Main', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 14:28:51 --> Cannot declare class App\Models\SeznamTymu, because the name is already in use
+in APPPATH\Models\Uvod.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-14 14:32:41 --> Undefined variable: kok
+in APPPATH\Controllers\Main.php on line 24.
+ 1 APPPATH\Controllers\Main.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kok', 'APPPATH\\Controllers\\Main.php', 24, [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Main->seznam()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
